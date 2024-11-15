@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pointRankFragment">
+
+    <fragment
+        android:id="@+id/pointRankFragment"
+        android:name="com.huseyinkiran.mackolikclone.view.fragments.PointRankFragment"
+        android:label="fragment_point_rank"
+        tools:layout="@layout/fragment_point_rank" />
+    <fragment
+        android:id="@+id/matchesFragment"
+        android:name="com.huseyinkiran.mackolikclone.view.fragments.MatchesFragment"
+        android:label="fragment_matches"
+        tools:layout="@layout/fragment_matches" />
+    <fragment
+        android:id="@+id/goalKingsFragment"
+        android:name="com.huseyinkiran.mackolikclone.view.fragments.GoalKingsFragment"
+        android:label="fragment_goal_kings"
+        tools:layout="@layout/fragment_goal_kings" />
+
+</navigation>
